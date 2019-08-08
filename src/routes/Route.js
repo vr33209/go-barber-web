@@ -5,7 +5,7 @@ import { Route, Redirect } from "react-router-dom";
 import AuthLayouts from "~/pages/_layouts/auth";
 import DefaultLayouts from "~/pages/_layouts/default";
 
-import store from "~/store";
+import { store } from "~/store";
 
 export default function RouteWrapper({
   component: Component,
